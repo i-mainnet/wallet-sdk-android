@@ -11,6 +11,11 @@ It is possible to operate in an environment where HTTP(s) communication is basic
 ### Adding dependency with Gradle
 Add the following to your build.gradle file:
 
+ ```gradle
+     dependencies {
+       implementation 'com.github.i-mainnet:wallet-sdk-android:0.1.0'
+     }
+ ```
 
 ### Adding Permission
 Permission to Internet communication is required in order to use the SDK. Add Permission to the AndroidManifest.xml file as shown below.
